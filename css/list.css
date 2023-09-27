@@ -1,0 +1,66 @@
+
+*{
+    
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+body{
+    background-color: black;
+}
+.uni{
+    display: flex;
+    justify-content: center;
+    border-style: inset;
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(238, 221, 221);
+}
+
+h2{
+    color: orangered;
+}
+
+.IIT{
+    color: orangered;
+    font-weight: bold;
+
+}
+
+.IIT1{
+    color: orange;
+}
+
+.NIT{
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+}
+
+.NIT1{
+    color:rgb(11, 56, 182)
+}
+
+.VIT{
+    color: blue;
+    font-weight: bold;
+}
+
+.VIT1{
+    color:rgb(11, 56, 182)
+}
+
+.BITS{
+    color: green;
+    font-weight: bold;
+}
+.BITS1{
+    color: rgb(83, 122, 23);
+}
+
+.KIET{
+    color: green;
+    font-weight: bold;
+}
+.KIET1{
+    color: rgb(83, 122, 23);
+}

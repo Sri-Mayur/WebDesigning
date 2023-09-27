@@ -31,3 +31,28 @@ table{
     justify-content: center;
     align-items: center;
 }
+
+.Office{
+    background-color: rgb(240, 179, 126);
+    font-weight: bold;
+}
+
+.Meeting{
+    background-color: grey;
+    font-weight: bold;
+}
+
+.MAT{
+    background-color: green;
+    font-weight: bold;
+}
+
+.CSC{
+    background-color: palevioletred;
+    font-weight: bold;
+}
+
+.heading{
+    color: purple;
+    text-align: center;
+}

@@ -6,21 +6,21 @@
     <title>HTML Form</title>
 </head>
 <body>
-    <form action="">
+    <form method="post" action="SecondPage.html">
         <label for="FName">First Name:</label>
-        <input type="text" name="FName" id=""> <br>
+        <input type="text" name="FName" id="" placeholder="Enter your first name"> <br>
 
         <label for="LName">Last Name:</label>
-        <input type="text" name="LName" id=""><br>
+        <input type="text" name="LName" id="" placeholder="Enter your last name"><br>
 
         <label for="Email">Email:</label>
-        <input type="email" name="Email" id=""><br>
+        <input type="email" name="Email" id="" placeholder="Enter the email"><br>
 
         <label for="Password">Password:</label>
-        <input type="password"><br>
+        <input type="password" placeholder="Enter the passsword"><br>
 
         <label for="Number">Number:</label>
-        <input type="number"> <br>
+        <input type="number" placeholder="Enter the number"> <br>
 
         <label for="Male">Male</label>
         <input type="radio" name="Gender" id=""> <br>
@@ -32,7 +32,35 @@
         <input type="radio" name="Gender"><br>
 
         <label for="Address">Address</label>
-        <textarea name="Address" id="" cols="30" rows="10"></textarea> <br>
+        <textarea name="Address" id="" cols="30" rows="10 pla" placeholder="Enter the address..."></textarea> <br>
+
+        <input type="checkbox" name="DSTL" value="DSTL">
+        <label for="DSTL">DSTL</label>
+
+        <input type="checkbox" name="Data Structure" value="DS" id="">
+        <label for="DS">Data Structure</label>
+
+        <input type="checkbox" name="Web Design" value="WD" id="">
+        <label for="WD">Web Design</label> <br>
+        <br>
+
+        <input type="date" value="DOB">
+        <label for="DOB">Date of Birth</label> <br>
+        <br>
+
+        <select>
+            <option value="">Choose</option>
+            <option value="WebDesign">Web Design</option>
+            <option value="DSTL">DSTL</option>
+            <option value="DS">Data Structure</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="file" name="File" id="">
+        <label for="file"></label> <br>
+        <br>
+
 
         <label for="Submit"></label>
         <input type="submit">

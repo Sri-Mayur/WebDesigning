@@ -3,117 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Form></Form></title>
+    <title>Form</title>
 </head>
 <body>
 
-    <table border="2">
-        <tr>
-            <td>
-                <label for="FNmae">First Name:</label>
-                <input type="text" name="FName" id="" placeholder="Enter the First name">
-                
-            </td>
-        </tr>
 
-        <tr>
-            <td>
-                <label for="LNmae">Last Name:</label>
-                <input type="text" name="LName" id="" placeholder="Enter the Last name">
-            </td>
+    <center>
+        <table border="1">
+            <tr>
+                <td>First Name:</td>
+                <td ><input type="text" placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
             
-        </tr>
-
-        <tr>
-            <td>
-                <label for="DOB">Date Of Birth:</label>
-                <input type="date" name="DOB" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="Email">Email</label>
-                <input type="email" name="Email" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="Password">Password</label>
-                <input type="password" name="Password" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="Mob">Mobile Number</label>
-                <input type="number" name="Mobile" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="Gender:">Gender</label>
-
-                <label for="Gender">Male</label>
-                <input type="radio" name="Male" id="">
-
-                <label for="Gender">Female</label>
-                <input type="radio" name="Female" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="Address:">Address</label> <br>
-               <textarea name="Address" id="" cols="30" rows="10"></textarea>
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="City">City:</label>
-                <input type="text" name="City" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="State">State:</label>
-                <input type="text" name="State" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="Counrty">Country</label>
-                <input type="text" name="Counrty" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label for="PIN Code">PIN Code:</label>
-                <input type="number" name="PIN" id="">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
+                <tr>
+                    <td>Mobile Number</td>
+                    <td><input type="number" placeholder="Enter your phone number"></td>
+               </tr>
+               <tr>
+                <td>Gender</td>
+                <td><form><label for="male">Male</label>
+                    <input type="checkbox">
+                    <label for="Female">Female</label>
+                    <input type="checkbox">
+                    </form>
+                    </td>
+               </tr>
+               <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="address"></textarea>
+                </td>
+               </tr>
+               <tr>
+               <td>City</td>
+               <td><input type="text"></td>
+               </tr>
+               <tr>
+                  <td>State</td>
+                  <td><input type="text"></td>
+               </tr>
+               <tr>
+                <td>Country</td>
+                <td><input type="text"></td>
+               </tr>
+               <tr>
+                <td>PIN Code</td>
+                <td><input type="text"></td>
+               </tr>
+               <tr>
+                <td>Interests</td>
+                <td><select>
+                    <option value="Dance">Dance</option>
+                    <option value="Singing">Singing</option>
+                    <option value="Sleeping">Sleeping</option>
+                </select></td>
+               </tr>
+               <tr>
                 
-            </td>
-        </tr>
+                   <td colspan="2" align="center"><input type="file" name=file>Upload Your Profile Picture</td>
+                
+                <br>
+               </tr>
+               <tr>
+                <form>
+                    
+                   <td colspan="2" align="center"> <input type="checkbox" name="checkbox" value="I agree to the Terms and conditions">
+                    <label for="I agree to the terms and conditions">I agree to the terms and conditions</label></td>
+                    
+                </form>
+               </tr>
+               </table>
+               <form>
+                <input type="submit">
+                <input type="reset">
+               </form>
 
+    </center>
 
-
-
-
-
-
-
-
-    </table>
+    
+            
     
 </body>
 </html>

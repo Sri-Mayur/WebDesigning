@@ -1,4 +1,4 @@
-<style>
+
         *{
             color: rgb(238, 232, 232);
             font-weight: 625;
@@ -12,13 +12,13 @@
         }
 
         
-        .styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    font-family: sans-serif;
-    min-width: 400px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+.styled-table {
+ border-collapse: collapse;
+ margin: 25px 0;
+ font-size: 0.9em;
+ font-family: sans-serif;
+ min-width: 400px;
+ box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .styled-table tr {
@@ -90,10 +90,5 @@
            .reset:hover {
              background-position: right center; 
              color: #fff;
-             text-decoration: none;
-           
-          
+             text-decoration: none;    
  }
-
-
-    </style>

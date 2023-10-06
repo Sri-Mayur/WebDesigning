@@ -42,10 +42,6 @@
 .styled-table tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
-.parent{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .submit{
              
@@ -53,14 +49,14 @@
             background-image: linear-gradient(to right, #603813 0%, #7a4527  51%, #683d14  100%);
             margin: 5px;
             padding: 10px 25px;;
-            text-align: center;
+            text-align: left;
             text-transform: uppercase;
             transition: 0.5s;
             background-size: 200% auto;
             color: white;            
             box-shadow: 0 0 20px #000000;
             border-radius: 10px;
-            display: block;
+            display: grid;
             cursor: pointer;
           }
 
@@ -74,9 +70,9 @@
              
       
              background-image: linear-gradient(to right, #603813 0%, #7a4527  51%, #603813  100%);
-             margin: 10px;
+             margin: 5px;
              padding: 10px 25px;
-             text-align: center;
+             text-align: right;
              text-transform: uppercase;
              transition: 0.5s;
              background-size: 200% auto;
@@ -91,4 +87,12 @@
              background-position: right center; 
              color: #fff;
              text-decoration: none;    
+ }
+
+ #ending{
+    font-family: ;
+    font-weight: lighter;
+    font-size: x-small;
+    font-style: italic;
+    margin-left: 70%;
  }

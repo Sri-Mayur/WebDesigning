@@ -1,0 +1,99 @@
+<style>
+        *{
+            color: rgb(238, 232, 232);
+            font-weight: 625;
+            font-family: sans-serif;
+        }
+
+        center{
+            background: linear-gradient(87.4deg, rgb(124, 99, 68) 1.9%, rgb(104, 70, 47) 49.7%, rgb(49, 34, 34) 100.5%);
+            
+            
+        }
+
+        
+        .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table tr {
+    background-color: rgba(83, 54, 54, 0.555) 100.5%;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table  tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table  tr:nth-of-type(even) {
+    background-color: rgb(255, 216, 165) 1.9%
+}
+
+.styled-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit{
+             
+            
+            background-image: linear-gradient(to right, #603813 0%, #7a4527  51%, #683d14  100%);
+            margin: 5px;
+            padding: 10px 25px;;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #000000;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+          }
+
+          .submit:hover {
+            background-position: right center; 
+            color: #fff;
+            text-decoration: none;
+}
+
+.reset{
+             
+      
+             background-image: linear-gradient(to right, #603813 0%, #7a4527  51%, #603813  100%);
+             margin: 10px;
+             padding: 10px 25px;
+             text-align: center;
+             text-transform: uppercase;
+             transition: 0.5s;
+             background-size: 200% auto;
+             color: white;  
+             box-shadow: 0 0 20px #000000;          
+             border-radius: 10px;
+             display: block;
+             cursor: pointer;
+           }
+ 
+           .reset:hover {
+             background-position: right center; 
+             color: #fff;
+             text-decoration: none;
+           
+          
+ }
+
+
+    </style>

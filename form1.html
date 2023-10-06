@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form1.css">
     <title>Form</title>
 </head>
 <body>
+    
 
 
     <center>
-        <table border="1">
+        <table border="1" class="styled-table">
             <tr>
-                <td>First Name:</td>
+                <td><i class="fa fa-user-circle-o" aria-hidden="true"></i>   First Name:</td>
                 <td ><input type="text" placeholder="Enter your first name"></td>
             </tr>
             <tr>
@@ -19,57 +22,59 @@
                 <td><input type="text" placeholder="Enter your last name"></td>
             </tr>
             <tr>
-                <td>Date of Birth</td>
+                <td><i class="fa fa-calendar" aria-hidden="true"></i>   Date of Birth</td>
                 <td><input type="date"></td>
             </tr>
             <tr>
-                <td>Email</td>
+                <td><i class="fa fa-envelope" aria-hidden="true"></i>    Email</td>
                 <td><input type="email"></td>
             </tr>
             <tr>
-                <td>Password</td>
+                <td><i class="fa fa-key" aria-hidden="true"></i>   Password</td>
                 <td><input type="password"></td>
             </tr>
             
                 <tr>
-                    <td>Mobile Number</td>
+                    <td><i class="fa fa-phone" aria-hidden="true"></i>  Mobile Number</td>
                     <td><input type="number" placeholder="Enter your phone number"></td>
                </tr>
                <tr>
-                <td>Gender</td>
-                <td><form><label for="male">Male</label>
-                    <input type="checkbox">
-                    <label for="Female">Female</label>
-                    <input type="checkbox">
+                <td><i class="fa fa-male" aria-hidden="true"></i><i class="fa fa-female" aria-hidden="true"></i>   Gender</td>
+                <td><form><label for="male"><i class="fa fa-mars" aria-hidden="true"></i>   Male</label>
+                    <input type="radio">
+                    <label for="Female"><i class="fa fa-venus" aria-hidden="true"></i>    Female</label>
+                    <input type="radio">
                     </form>
                     </td>
                </tr>
                <tr>
-                <td>Address</td>
+                <td><i class="fa fa-address-book" aria-hidden="true" ></i>   Address  </i></td>
                 <td>
+                    
                     <textarea name="address"></textarea>
                 </td>
                </tr>
                <tr>
-               <td>City</td>
+               <td><i class="fa fa-building-o" aria-hidden="true"></i>  City</td>
                <td><input type="text"></td>
                </tr>
                <tr>
-                  <td>State</td>
+                  <td><i class="fa fa-flag" aria-hidden="true"></i>   State</td>
                   <td><input type="text"></td>
                </tr>
                <tr>
-                <td>Country</td>
+                <td><i class="fa fa-globe" aria-hidden="true"></i>   Country</td>
                 <td><input type="text"></td>
                </tr>
                <tr>
-                <td>PIN Code</td>
+                <td><i class="fa fa-map-marker" aria-hidden="true"></i>    PIN Code</td>
                 <td><input type="text"></td>
                </tr>
                <tr>
-                <td>Interests</td>
+                <td><i class="fa fa-futbol-o" aria-hidden="true"></i>
+                       Interests</td>
                 <td><select>
-                    <option value="Dance">Dance</option>
+                    <option value="Dance" >Coding</option>
                     <option value="Singing">Singing</option>
                     <option value="Sleeping">Sleeping</option>
                 </select></td>
@@ -89,15 +94,13 @@
                 </form>
                </tr>
                </table>
+               <div class="parent">
                <form>
-                <input type="submit">
-                <input type="reset">
+                <input  type="submit" class="submit">
+                <input type="reset" class="reset">
                </form>
+            </div>
 
-    </center>
-
-    
-            
-    
+    </center>    
 </body>
 </html>

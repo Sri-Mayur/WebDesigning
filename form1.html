@@ -11,11 +11,11 @@
     
 
 
-    <center>
+    <center >
         <table border="1" class="styled-table">
             <tr>
                 <td><i class="fa fa-user-circle-o" aria-hidden="true"></i>   First Name:</td>
-                <td ><input type="text" placeholder="Enter your first name"></td>
+                <td ><input class="fname" type="text" placeholder="Enter your first name" onclick="validate()"></td>
             </tr>
             <tr>
                 <td>Last Name:</td>
@@ -96,7 +96,7 @@
                </table>
                <div class="parent">
                <form>
-                <input  type="submit" class="submit">
+                <input  type="submit" class="submit"  onclick="validate()">
                 <input type="reset" class="reset">
 
 
@@ -109,6 +109,27 @@
                </form>
             </div>
 
-    </center>    
+    </center>   
+    
+    <script>
+        function validate(){
+            alert("My function is working");
+            var v= document.getElementsByClassName("submit");
+            var x= document.getElementsByClassName("fname");
+
+            alert(v);
+
+            if(x=" "){
+                alert("Enter the First Name!");
+
+            }
+            
+
+            
+        }
+
+        
+
+    </script>
 </body>
 </html>

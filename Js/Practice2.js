@@ -13,3 +13,8 @@ console.log(date.getDay());
 console.log(date.getMilliseconds());
 console.log(date.getSeconds());
 
+date.setDate(26);
+date.setMonth(1);
+date.setYear(2005);
+
+console.log(date);
